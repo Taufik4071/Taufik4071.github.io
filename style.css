@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d9d9d9;
+    background-image: url("background.jpg");
+    background-size: 1500px;
+    font-size: 10pt;
+    margin: 0px;
+}
+.isi{
+    width: 500px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    background-color: rgb(228, 228, 228);
+    opacity: 1;
+}
+h1{
+    
+    padding: 40px;
+    margin: 0px;
+    text-align: center;
+    
+}
+.hilang{
+    
+    opacity: 0;
+    transition: 1s;
+}
+.close{
+    background-color: rgb(255, 42, 42);
+    width: 50px;
+    border-radius: 0px 15px 0px 0px;
+    position: absolute;
+    margin: 0px 0px 0px 450px;
+    cursor: grab;
+}
+h3{
+    text-align: center;
+    font-size: 18pt;
+    margin: 0px 0px 10px 0px;
+    
+}
+h2{
+    margin: 20px;
+}
+img{
+    width: 500px;
+    height: 305px;
+    box-shadow: 0px 30px 100px -50px rgb(54, 54, 54);
+}
